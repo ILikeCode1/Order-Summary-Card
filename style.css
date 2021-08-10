@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-size: 16px;
+  width: 260px;
+  line-height: 21px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.plan-box {
+  background-color: hsl(225, 100%, 98%);
+  width: 345px;
+  height: 105px;
+  margin-top: 25px;
+  margin-left: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-text {
+  padding-left: 25px;
+}
+
+h3 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+h4 {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+.chg {
+  color: hsl(245, 75%, 52%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  margin-left: 85px;
+  font-size: 13px;
+}
+
+.chg:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 68%);
+}
+
+.button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  width: 345px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+  margin-top: 30px;
+  border-radius: 7px;
+  text-decoration: none;
+  box-shadow: 0px 20px 11px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: hsl(245, 75%, 68%);
+}
+
+.cancel {
+  display: flex;
+  color: hsl(224, 23%, 55%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  margin-top: 35px;
+  font-size: 14px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.cancel:hover {
+  color: black;
+}
+
+.box {
+  background-color: white;
+  width: 450px;
+  height: 470px;
+  border-radius: 0 0 15px 15px;
+}
+
+/*IMAGES*/
+
+.back-image {
+  background-image: url("images/pattern-background-desktop.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+}
+
+.top-pic {
+  border-radius: 15px 15px 0 0;
+}
+
+.music {
+  height: 48px;
+}
