@@ -14,10 +14,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 h1 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 2.8rem;
   margin-top: 40px;
   text-align: center;
 }
@@ -25,7 +29,7 @@ h1 {
 p {
   color: var(--Desaturated-Blue);
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6rem;
   width: 260px;
   line-height: 21px;
   margin-top: 20px;
@@ -53,13 +57,13 @@ p {
 h2 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1.4rem;
   padding-bottom: 5px;
 }
 
 h3 {
   color: var(--Desaturated-Blue);
-  font-size: 13px;
+  font-size: 1.3rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
 }
@@ -69,7 +73,7 @@ h3 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   margin-left: 85px;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 .chg:hover {
@@ -81,7 +85,7 @@ h3 {
   color: white;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +109,7 @@ h3 {
   color: var(--Desaturated-Blue);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 1.4rem;
   display: flex;
   text-decoration: none;
   justify-content: center;
@@ -151,7 +155,6 @@ h3 {
 @media screen and (max-width: 475px) {
   .top-pic {
     width: 325px;
-    height: 160px;
   }
 
   .box {
@@ -159,7 +162,7 @@ h3 {
   }
 
   h1 {
-    font-size: 23px;
+    font-size: 2.3rem;
     margin: 0;
     margin-top: 35px;
   }
