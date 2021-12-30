@@ -22,7 +22,7 @@ h1 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 2.8rem;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ p {
   font-size: 1.6rem;
   width: 260px;
   line-height: 21px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 100px;
 }
 
@@ -93,7 +93,7 @@ h3 {
   height: auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-left: 45px;
+  margin-left: 50px;
   margin-top: 30px;
   border-radius: 7px;
   text-decoration: none;
@@ -152,34 +152,31 @@ h3 {
   height: 470;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 550px) {
   .top-pic {
-    width: 325px;
+    width: 32.5em;
   }
 
   .box {
-    width: 325px;
+    width: 32.5em;
   }
 
   h1 {
+    margin-top: 1em;
     font-size: 2.3rem;
-    margin: 0;
-    margin-top: 35px;
   }
 
   p {
-    width: 230px;
-    margin: 0;
-    margin-left: 45px;
-    margin-top: 20px;
+    width: 15em;
+    margin-left: 3em;
+    margin-top: 1em;
   }
 
   .plan-box {
-    width: 270px;
-    height: 81px;
-    margin: 0;
-    margin-top: 30px;
-    margin-left: 25px;
+    width: 28em;
+    height: 8.1em;
+    margin-top: 3em;
+    margin-left: 2.5em;
   }
 
   h2 {
@@ -188,13 +185,18 @@ h3 {
 
   .chg {
     margin: 0;
-    margin-left: 35px;
+    margin-left: 2.5em;
   }
 
   .button {
-    width: 280px;
+    width: 18em;
     margin: 0;
-    margin-top: 30px;
-    margin-left: 25px;
+    margin-top: 2em;
+    margin-left: 1.85em;
+  }
+
+  .cancel {
+    margin-top: 1.5em;
   }
 }
+
