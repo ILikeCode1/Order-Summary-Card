@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 :root {
+  /* Primary */
   --paleBlue: hsl(225, 100%, 94%);
   --brightBlue: hsl(245, 75%, 52%);
+
+  /* Neutral */
   --veryPaleBlue: hsl(225, 100%, 98%);
   --desaturatedBlue: hsl(224, 23%, 55%);
   --darkBlue: hsl(223, 47%, 23%);
@@ -14,183 +17,136 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+main {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: var(--paleBlue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.box {
+  background-color: white;
+  max-width: 45rem;
+  border-radius: 0 0 1.5rem 1.5rem;
 }
 
 h1 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 2.8rem;
-  margin-top: 30px;
+  padding-top: 3rem;
   text-align: center;
-}
-
-p {
-  color: var(--desaturatedBlue);
-  text-align: center;
-  font-size: 1.6rem;
-  width: 260px;
-  line-height: 21px;
-  margin-top: 15px;
-  margin-left: 100px;
-}
-
-.plan-box {
-  background-color: var(--veryPaleBlue);
-  width: 345px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-top: 25px;
-  margin-left: 50px;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.plan-text {
-  padding-left: 25px;
 }
 
 h2 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 1.4rem;
-  padding-bottom: 5px;
+  font-size: 1.6rem;
+  padding-bottom: 0.5rem;
 }
 
 h3 {
   color: var(--desaturatedBlue);
-  font-size: 1.3rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
-.chg {
+p {
+  color: var(--desaturatedBlue);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  max-width: 28rem;
+  padding: 2rem 0;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.3rem;
+}
+
+.top-pic {
+  display: block;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.plan-box {
+  background-color: var(--veryPaleBlue);
+  max-width: 33rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.music-img {
+  padding: 2.2rem 0;
+}
+
+.plan-text {
+  padding-left: 2.5rem;
+}
+
+.chg-button {
   color: var(--brightBlue);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  margin-left: 85px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  padding-left: 7rem;
 }
 
-.chg:hover {
+.chg-button:hover {
   color: hsl(245, 75%, 68%);
   text-decoration: none;
 }
 
-.button {
+.purchase-button {
   color: white;
+  background-color: var(--brightBlue);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
+  max-width: 33rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 345px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-left: 50px;
-  margin-top: 30px;
-  border-radius: 7px;
+  padding: 1.5rem 0;
+  margin: 3rem auto;
+  box-shadow: 0 2rem 1.1rem rgba(0, 0, 0, 0.14);
+  border-radius: 1rem;
   text-decoration: none;
-  box-shadow: 0px 20px 11px rgba(0, 0, 0, 0.1);
-  background-color: var(--brightBlue);
 }
 
-.button:hover {
+.purchase-button:hover {
   background-color: hsl(245, 75%, 68%);
 }
 
-.cancel {
+.cancel-button {
   color: var(--desaturatedBlue);
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
   font-size: 1.4rem;
+  width: 10rem;
   display: flex;
+  padding-bottom: 4rem;
+  margin: 3rem auto;
   text-decoration: none;
-  justify-content: center;
-  margin-top: 35px;
-  padding-bottom: 30px;
 }
 
-.cancel:hover {
+.cancel-button:hover {
   color: black;
-}
-
-.box {
-  background-color: white;
-  width: 450px;
-  border-radius: 0 0 15px 15px;
-}
-
-/*IMAGES*/
-
-.back-image {
-  background-image: url("images/pattern-background-desktop.svg");
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--paleBlue);
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-size: 100%;
-}
-
-.top-pic {
-  border-radius: 15px 15px 0 0;
-}
-
-.music {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-@media screen and (max-width: 550px) {
-  .top-pic {
-    width: 32.5em;
-  }
-
-  .box {
-    width: 32.5em;
-  }
-
-  h1 {
-    margin-top: 1em;
-    font-size: 2.3rem;
-  }
-
-  p {
-    width: 15em;
-    margin-left: 3em;
-    margin-top: 1em;
-  }
-
-  .plan-box {
-    width: 28em;
-    margin-top: 3em;
-    margin-left: 2.5em;
-  }
-
-  h2 {
-    width: 90px;
-  }
-
-  .chg {
-    margin: 0;
-    margin-left: 2.5em;
-  }
-
-  .button {
-    width: 18em;
-    margin: 0;
-    margin-top: 2em;
-    margin-left: 1.85em;
-  }
-
-  .cancel {
-    margin-top: 1.5em;
-  }
 }
